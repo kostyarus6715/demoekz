@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaApplication2", "AvaloniaApplication2\AvaloniaApplication2.csproj", "{B3BBFE88-A235-409A-B84E-CD1ADD263192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4modul", "4modul\4modul.csproj", "{3E277278-D455-4AC5-8E9A-C600A9A1B061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIOValidator", "FIOValidator\FIOValidator.csproj", "{38AA040D-523A-4DFA-B06B-75F10884A0A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "..\..\Downloads\Simulator.API\API\API.csproj", "{E3EEA3B2-22A4-420E-AA42-DA5A790EF703}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3BBFE88-A235-409A-B84E-CD1ADD263192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BBFE88-A235-409A-B84E-CD1ADD263192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BBFE88-A235-409A-B84E-CD1ADD263192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BBFE88-A235-409A-B84E-CD1ADD263192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E277278-D455-4AC5-8E9A-C600A9A1B061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E277278-D455-4AC5-8E9A-C600A9A1B061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E277278-D455-4AC5-8E9A-C600A9A1B061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E277278-D455-4AC5-8E9A-C600A9A1B061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38AA040D-523A-4DFA-B06B-75F10884A0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38AA040D-523A-4DFA-B06B-75F10884A0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38AA040D-523A-4DFA-B06B-75F10884A0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38AA040D-523A-4DFA-B06B-75F10884A0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3EEA3B2-22A4-420E-AA42-DA5A790EF703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3EEA3B2-22A4-420E-AA42-DA5A790EF703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3EEA3B2-22A4-420E-AA42-DA5A790EF703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3EEA3B2-22A4-420E-AA42-DA5A790EF703}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

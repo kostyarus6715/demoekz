@@ -1,0 +1,14 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="AvaloniaApplication2.MainWindow"
+        Title="Добро пожаловать"
+        Width="600" Height="400"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Добро пожаловать в систему!" FontSize="20" HorizontalAlignment="Center"/>
+            <TextBlock Text="Вы успешно вошли." FontSize="16" Margin="0,10,0,20" HorizontalAlignment="Center"/>
+            <Button Content="Выйти" Click="OnLogoutClick" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>

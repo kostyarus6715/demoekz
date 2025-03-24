@@ -1,0 +1,14 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplication2.AuthorizeWindow">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
+        <TextBlock Text="Логин"/>
+        <TextBox x:Name="LoginBox" Watermark="Логин" Width="300" />
+        <TextBlock Text="Пароль"/>
+        <TextBox x:Name="PasswordBox" PasswordChar="*" Watermark="Пароль" Width="300" />
+        <Button x:Name="ButtonA" Content="Авторизоваться" Width="130" Click="ButtonA_OnClick"/>
+    </StackPanel>
+</Window>
